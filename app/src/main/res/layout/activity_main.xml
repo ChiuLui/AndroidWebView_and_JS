@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"></WebView>
+
+    <Button
+        android:id="@+id/btn_to_js"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点我以loadUrl()方式调用Js代码"/>
+
+    <Button
+        android:id="@+id/btn2_to_js"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点我以evaluateJavascript()方式调用Js代码"/>
+
+
+    <WebView
+        android:id="@+id/webView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"></WebView>
+
+    <WebView
+        android:id="@+id/webView3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"></WebView>
+
+
+    <WebView
+        android:id="@+id/webView4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"></WebView>
+
+
+</LinearLayout>
