@@ -124,6 +124,7 @@ public class MainActivity extends AppCompatActivity {
         //参数1：Javascript对象名
         //参数2：Java对象名
         webView2.addJavascriptInterface(new AndroidtoJs(this), "test");//AndroidtoJS类对象映射到js的test对象
+//        mWebView.addJavascriptInterface(this, "control");//也可以
 
         // 加载JS代码
         // 格式规定为:file:///android_asset/文件名.html
